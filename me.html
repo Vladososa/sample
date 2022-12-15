@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="author" content="Владимир Крумов">
+    <link rel="icon" type="image/x-icon"
+        href="./Files/mylogo.jpg" />
+        <title>Author</title>
+    <link rel="stylesheet" type="text/css" href="./css/mestyle.css">
+    <body>
+        <ul>
+            <a href="guide.html">Върни се</a>
+        </ul>
+    <section>
+        <header>Feedback</header>
+        <p class="SendTD">
+            Формуляр за изпращане на мнение от потребител към мен чрез имейл:
+            <a href = "mailto: abc@example.com">
+            vlado_krumoff66&#64;abv.bg
+            </a>
+        </p>
+        <form action="#" enctype="multipart/form-data" method="post" name="emailTest">
+            <fieldset>
+                <legend>Мнение от потребителя</legend>
+                <p>
+                    <label for="inpSender">Подател<span class=""r>*</span>:</label>
+                    
+                    <input type="text" id="inpSender" name="inpSender" size="45"
+                    required placeholder="Задължително" /> 
+                </p>
+                <p>
+                    <label for="emailSender">E-mail<span class=""r>*</span>:</label>
+                    &nbsp;&nbsp;
+                    <input type="email" id="emailSender" name="emailSender" size="45"
+                    required placeholder="Задължително" /> 
+                </p>
+                <p>
+                    <label for="listTop">Тема:</label>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <input list="inpTop" size="45" id="listTop" />
+                <datalist id="inpTop">
+                    <option value="Природа"></option>
+                    <option value="Образование"></option>
+                    <option value="Култура"></option>
+                    <option value="Музика"></option>
+                    <option value="Разни"></option>
+                </datalist>
+                </p>
+                <p>
+                    <input type="checkbox" name="cbWorkLoad" value="Уча" checked id="student">
+                <label for="student">Уча</label>
+                &nbsp; &nbsp;
+                <input type="checkbox" name="cbWorkLoad" value="Работя" id="employee">
+                <label for="employee">Работя</label>
+                &nbsp; &nbsp;
+                <input type="checkbox" name="cbWorkLoad" value="Безработен" id="jobless">
+                <label for="jobless">Безработен</label>
+                &nbsp; &nbsp;
+                <input type="checkbox" name="cbWorkLoad" value="Пенсионер" id="retiree" />
+                <label for="retiree">Пенсионер</label>
+                </p>
+                <p>
+                    <input type="radio" name="rbGender" id="male" value="Мъж">
+                <label for="male">Мъж</label>
+                &nbsp; &nbsp;
+                <input type="radio" name="rbGender" id="female" value="Жена">
+                <label for="female">Жена</label>
+                &nbsp; &nbsp;
+                <input type="radio" name="rbGender" id="gother" value="Друго">
+                <label for="gother">Друго</label>
+                </p>
+                <p>
+                    <label for="age">Възраст:</label>
+                    &nbsp; &nbsp;
+                    <select name="age" size="1" id="age">
+                        <option value="до 12 год.">до 12 год.</option>
+                        <option value="13 - 18 год.">13 - 18 год.</option>
+                        <option value="19 - 35 год.">19 - 35 год.</option>
+                        <option value="36-64 год.">36 - 64 год.</option>
+                        <option value="над 65 год.">над 65 год.</option>   
+                    </select>
+                </p>
+                <p>
+                    <label for="inputDate">Дата:</label>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="date" name="inputDate" id="inputDate" />
+                </p>
+                <p>
+                    <label for="myFile">Прикачен Файл:</label>
+                    &nbsp; &nbsp;
+                    <input type="file" accept="image/*" name="myFile" id="myFile"/>
+                </p>
+                <p>
+                    Текст към писмото:
+                <textarea rows="5" cols="40" required placeholder="Задължително"
+                          name="txtLetter" id="txtLetter">
+                </textarea>
+                </p>
+                <div class="SendTD">
+                    <input type="submit" value="Изпрати" class="btn">
+                    <input type="reset" value="Изчисти" class="btn">
+                </div>
+            </fieldset>
+        </form>
+        <footer> Владимир Крумов - 22251421007</br>
+        Първи курс - Информационни системи и технологии </footer>
+        </section>
+    </body>
+</html>
