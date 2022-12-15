@@ -1,0 +1,156 @@
+body
+{
+    background-image: url(../Files/collage7.jpg);
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+}
+.content 
+{
+    background-color: #75861e7d;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.logo 
+{
+    
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.logo img 
+{
+    height: 150px;
+    width: 150px;
+}
+.title 
+{
+    background-color: #8ca12563;
+    height: 100px;
+}
+.title h1 
+{
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    color: #eef8ba;
+    text-shadow: 5px 5px 3px #262c059e;
+    padding-top: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.panelMenuH 
+{
+    background-color: #8ca1256b;
+    padding: 5px;
+    text-align: right;
+}
+.menuH 
+{
+    
+    display: inline-block;
+    width: 120px;
+    height: 20px;
+    border: 3px solid #4c5a05;
+    margin: 5px;
+    border-radius: 3px;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 2px #262c05;
+    background-color: #4c5a05;
+    padding: 5px;
+    font: bold 12pt arial, verdana;
+    color: #fffde7;
+}
+.menuH:hover 
+{
+    color: #fff180;
+}
+.news 
+{
+    background-color: #f3f8d774;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+img .newsImg 
+{
+    background: rgb(255,255,255);
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+    position: relative;
+    margin: 10px;
+}
+a:link, a:visited 
+{
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+a:hover
+{
+    color: rgba(245, 245, 245, 0.564); 
+}
+ul
+{
+    display: inline-block;
+    width: 120px;
+    height: 20px;
+    border: 3px solid #4c5a05;
+    margin: 5px;
+    border-radius: 3px;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 2px #262c05;
+    background-color: #4c5a05;
+    padding: 5px;
+    font: bold 12pt arial, verdana;
+    color: #fffde7;
+}
+table, td {
+    border: 1px solid black;
+    text-align: left;
+    background-color:#6d7a2fbb;
+    padding:5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    font:bold 12pt arial, verdana;
+
+  }
+  th{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #4c5a05;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: large;
+    
+
+  }
+  caption{
+    font-family: 'Comic Sans MS';
+    color: black;
+    text-shadow: 5px 5px 3px #262c059e;
+    margin-bottom: 10px;
+    font-size: 14pt;
+  }
+  @media screen and (max-width: 767px) {
+    table{
+        width: 90%;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+    }
+    table {
+        margin-bottom: 0;
+        margin-right: 100px;
+    }
+    
+}
